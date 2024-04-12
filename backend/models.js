@@ -22,9 +22,9 @@ class Playlist {
   }
 
   removeSong(title) {
-    console.log(song);
+    
     console.log(this.songs);
-    console.log(typeof song);
+
     this.songs = this.songs.filter((s) => s.title !== title);
     console.log(this.songs);
   }
